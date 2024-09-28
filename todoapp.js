@@ -23,7 +23,7 @@ function addTask(description) {
         tasks.push(description);
         console.log(`Task added: ${description}`);
         askNextAction(); // asks what to do next after adding task
-    }, 2000); // simulating delay of 2s
+    }, 2000); // simulating delay-2s
 }
 
 // fxn to view all tasks
@@ -43,7 +43,7 @@ function viewTask() {
         askNextAction(); // asks what to do next after viewing tasks
         
 
-    }, 1000); // simulating delay of 1s
+    }, 1000); // simulating delay-1s
 
 }
 
